@@ -1,0 +1,91 @@
+
+body {
+
+  font-family: 'Avenir', sans-serif;
+  color: #252626;
+  justify-content: center;
+  /* padding-top: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 20px; */
+  z-index: 2;
+
+  width: 100%;
+  position: relative;
+
+}
+
+p {
+  font-size: 40px;
+  color: magenta;
+  padding: 5px;
+  margin: 5px;
+  z-index: 2;
+}
+
+h1 {
+  /* border: 1px solid #252626; */
+  text-align: center;
+  margin: 6px;
+  padding: 6px;
+
+}
+
+.bg {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 1024px;
+}
+
+/* html {
+  background: url('cridhe_crois_shlighe_graphic2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+a {
+
+}
+
+.navbar {
+
+  font-size: 20px;
+  border-color: black;
+
+  display: flex;
+  margin: 6px;
+  padding: 6px;
+  justify-content: space-around;
+  /* border: 1px solid #252626; */
+}
+
+.section-logos {
+  width: 100%;
+}
+
+img {
+  display: inline-flex;
+  /* justify-content: space-around; */
+  width: auto;
+  height: 100px;
+  margin: 6px;
+  padding: 6px;
+
+}
+
+.bg-digital {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 1024px;
+  z-index: 1;
+}
