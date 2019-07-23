@@ -1,3 +1,6 @@
+html { font-size: calc(1em + 1vw) }
+
+
 body {
 
 
@@ -9,32 +12,37 @@ body {
   padding-left: 300px;
   padding-right: 300px;
   padding-bottom: 20px; */
-  z-index: 2;
+  /* z-index: 2; */
   /* background-color: #f7f6f5; */
   /* #f5f5f7 */
 
 }
 
 p {
-  font-size: 40px;
+  /* font-size: 40px; */
   color: #252626;
   padding: 5px;
   margin: 5px;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 h1 {
   /* border: 1px solid #252626; */
+
   text-align: center;
+  font-size: 110%;
   margin: 6px;
   padding: 6px;
-
 }
+
+/* h1 { font-size: 2em }
+h2 { font-size: 1.5em } */
+
 
 .bg {
   width: 100%;
   height: auto;
-  position: relative;
+  /* position: relative; */
   top: 0;
   left: 0;
   min-height: 100%;
@@ -57,7 +65,7 @@ h1 {
   width: 60%;
   /* border: 1px solid #252626; */
   justify-content: center;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .inner-div-header-right {
@@ -91,22 +99,34 @@ a {
 }
 
 a:hover {
-  color: magenta;
+  color: #ffb366;
   /* background-color: blue; */
   /* border: 1px solid #252626; */
 
 }
 
 .navbar {
-
-  font-size: 20px;
+  overflow: hidden;
+  font-size: 70%;
   border-color: black;
-
+  background: white;
   display: flex;
-  margin: 6px;
+  /* margin: 6px;*/
   padding: 6px;
-  justify-content: space-around;
-  /* border: 1px solid #252626; */
+  justify-content: center;
+  border: 1px solid #252626;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+  justify-content: center;
 }
 
 .section-logos {
@@ -117,7 +137,7 @@ img {
   display: inline-flex;
   /* justify-content: space-around; */
   width: auto;
-  height: 140px;
+  height: 120px;
   margin: 6px;
   padding: 6px;
 
@@ -131,6 +151,6 @@ img {
   left: 0;
   min-height: 100%;
   min-width: 1024px;
-  z-index: 1;
+  /* z-index: 1; */
 
 }

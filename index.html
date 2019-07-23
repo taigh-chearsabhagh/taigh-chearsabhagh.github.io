@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Suil an Cruthaidheach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
@@ -14,19 +15,20 @@
         <header>
           <h1>Cridhe Crois-Shlighe :: Heart of the Crossings</h1>
         </header>
-        <div class="navbar">
-          <nav>
-            <a href="index.html" title="Home">Home</a>
-            <a href="art-therapy.html" title="Art-Therapy">Art Therapy</a>
-            <a href="digital-islands.html" title="Digital-Islands">Digital Islands</a>
-            <a href="arts-outreach.html" title="Arts-Outreach">Arts Outreach</a>
-            <a href="sùil-an-cruthaidheach.html" title="Sùil-An-Cruthaidheach">Sùil an Cruthaidheach</a>
-          </nav>
-        </div>
+
     </div>
       <div class="inner-div-header-right">
-        <img src="./images/cropped-taigh-chearsabhagh-logo.jpg" alt="Taigh Cherasabhagh logo" class="header-logo-img"/>
+        <!-- <img src="./images/cropped-taigh-chearsabhagh-logo.jpg" alt="Taigh Cherasabhagh logo" class="header-logo-img"/> -->
       </div>
+    </div>
+    <div class="navbar" id="navbar">
+      <nav>
+        <a href="index.html" title="Home">Home</a>
+        <a href="art-therapy.html" title="Art-Therapy">Art Therapy</a>
+        <a href="digital-islands.html" title="Digital-Islands">Digital Islands</a>
+        <a href="arts-outreach.html" title="Arts-Outreach">Arts Outreach</a>
+        <a href="sùil-an-cruthaidheach.html" title="Sùil-An-Cruthaidheach">Sùil an Cruthaidheach</a>
+      </nav>
     </div>
     <!-- <div class="navbar">
     <nav>
@@ -72,7 +74,7 @@
       <img src="./images/Digital-Xtra-logo.png" alt="Digital Xtra logo"/>
       <img src="./images/ESF+logo+-+Gaelic+-+colour+-+PNG.png" alt="ESF logo"/>
       <img src="./images/taigh-chearsabhagh-logo.png" alt="Taigh-Chearsabhagh logo"/>
-      <img src="./images/LCC_logo.png" alt="LCC logo"/>
+      <img src="./images/Lews-Castle-College-final-logo-2-1024x313.png" alt="LCC logo"/>
 
     </div>
       <section>
@@ -84,5 +86,21 @@
     <footer>
       <!-- Footer goes here -->
     </footer>
+    <script type="text/javascript">
+
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
   </body>
 </html>
