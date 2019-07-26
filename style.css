@@ -120,14 +120,20 @@ a:hover {
   top: 0;
   left: 0;
 }
+.projects-div {
+  display: flex;
+  justify-content: center;
+  max-width: 100%
+
+}
 
 .strand-div {
   display: inline-flex;
   justify-content: center;
-  padding: 5px;
-  max-width: 30%;
+  padding: 10px;
+  max-width: 33%;
   border: 1px solid #252626;
-  margin: 15px;
+  margin: 5px;
   font-size: calc(0.5em + 0.5vw)
 }
 
