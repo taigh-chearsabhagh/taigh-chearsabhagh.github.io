@@ -12,21 +12,21 @@
       </div>
       <div class="inner-div-header">
         <header>
-          <h1>Cridhe Crois-Shlighe :: Heart of the Crossings</h1>
+          <h1>Digital Islands</h1>
         </header>
-        <div class="navbar">
-          <nav>
-            <a href="index.html" title="Home">Home</a>
-            <a href="art-therapy.html" title="Art-Therapy">Art Therapy</a>
-            <a href="digital-islands.html" title="Digital-Islands">Digital Islands</a>
-            <a href="arts-outreach.html" title="Arts-Outreach">Arts Outreach</a>
-            <a href="sùil-an-cruthaidheach.html" title="Sùil-An-Cruthaidheach">Sùil an Cruthaidheach</a>
-          </nav>
-        </div>
-    </div>
-      <div class="inner-div-header-right">
-        <img src="./images/taigh-chearsabhagh-logo.png" alt="Taigh Cherasabhagh logo" class="header-logo-img"/>
       </div>
+      <div class="inner-div-header-right">
+        <!-- <img src="./images/cropped-taigh-chearsabhagh-logo.jpg" alt="Taigh Cherasabhagh logo" class="header-logo-img"/> -->
+      </div>
+    </div>
+    <div class="navbar" id="navbar">
+      <nav>
+        <a href="index.html" title="Home">Home</a>
+        <a href="art-therapy.html" title="Art-Therapy">Art Therapy</a>
+        <a href="digital-islands.html" title="Digital-Islands">Digital Islands</a>
+        <a href="arts-outreach.html" title="Arts-Outreach">Arts Outreach</a>
+        <a href="sùil-an-cruthaidheach.html" title="Sùil-An-Cruthaidheach">Sùil an Cruthaidheach</a>
+      </nav>
     </div>
     <main>
       <section class="section">
@@ -55,15 +55,15 @@
           </p>
 
         </article>
-      </section class="section-logos">
+      </section>
       <div class="footer-logos">
       <!-- Pseudo footer of logos and compliance content goes here -->
-      <img src="./images/Digital-Xtra-logo.png" alt="Digital Xtra logo"/>
-      <img src="./images/ESF+logo+-+Gaelic+-+colour+-+PNG.png" alt="ESF logo"/>
-      <img src="./images/taigh-chearsabhagh-logo.png" alt="Taigh-Chearsabhagh logo"/>
-      <img src="./images/uhi-logo.png" alt="UHI logo"/>
+      <img src="./images/Digital-Xtra-logo.png" alt="Digital Xtra logo" class="footer-logo"/>
+      <img src="./images/ESF+logo+-+Gaelic+-+colour+-+PNG.png" alt="ESF logo" class="footer-logo"/>
+      <img src="./images/taigh-chearsabhagh-logo.png" alt="Taigh-Chearsabhagh logo" class="footer-logo"/>
+      <img src="./images/Lews-Castle-College-final-logo-2-1024x313.png" alt="LCC logo" class="footer-logo"/>
 
-    </div>
+      </div>
       <section>
       </section>
     </main>
@@ -73,5 +73,21 @@
     <footer>
       <!-- Footer goes here -->
     </footer>
+    <script type="text/javascript">
+
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
   </body>
 </html>

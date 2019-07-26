@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 10;
   font-family: 'Avenir', sans-serif;
   z-index: 2;
 }
@@ -19,6 +19,10 @@ h1 {
   font-size: 110%;
   margin: 6px;
   padding: 6px;
+}
+
+h2 {
+
 }
 
 .bg {
@@ -123,6 +127,10 @@ a:hover {
   padding: 5px;
   max-width: 30%;
   border: 1px solid #252626;
-  margin: 10px;
-  font: 0.8em;
+  margin: 15px;
+  font-size: calc(0.5em + 0.5vw)
 }
+
+/* pre {
+  font: 0.5em;
+} */
