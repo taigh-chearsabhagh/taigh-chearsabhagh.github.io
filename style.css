@@ -161,7 +161,7 @@ a:hover {
 }
 
 .strand-div {
-  display: inline-flex;
+  display: inline-block;
   justify-content: center;
   padding: 10px;
   max-width: 31%;
