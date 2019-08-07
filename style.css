@@ -29,10 +29,10 @@ h2 {
 
 }
 
-/* img {
-  width: 70%;
-  position: center;
-} */
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* .spacer {
   width: 20%;
@@ -44,9 +44,15 @@ h2 {
   justify-content: center;
 } */
 
+.image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
 
 .bg {
-  width:100%;
+  width: 70%;
   justify-content: center;
   height: auto;
   top: 0;
@@ -148,7 +154,7 @@ a:hover {
 }
 
 .projects-div {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   max-width: 100%;
 
