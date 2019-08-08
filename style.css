@@ -29,6 +29,10 @@ h2 {
 
 }
 
+li {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
