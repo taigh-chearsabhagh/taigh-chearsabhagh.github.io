@@ -14,8 +14,8 @@ body {
 
 p {
   color: #252626;
-  padding: 10px;
-  margin: 10px;
+  padding: 15px;
+  margin: 15px;
 }
 
 h1 {
@@ -100,6 +100,12 @@ a {
 
 a:hover {
   color: #ffb366;
+}
+
+.text-link {
+  color: #252626;
+  text-decoration: underline;
+  padding: none;
 }
 
 .navbar {
