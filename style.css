@@ -18,6 +18,8 @@ p {
   margin: 15px;
 }
 
+
+
 h1 {
   text-align: center;
   font-size: 110%;
@@ -41,15 +43,7 @@ img {
   height: auto;
 }
 
-/* .spacer {
-  width: 20%;
-  margin: 20px;
-} */
-/*
-.section {
-  width: 100%;
-  justify-content: center;
-} */
+
 
 .image-section {
   width: 100%;
@@ -64,8 +58,7 @@ img {
   height: auto;
   top: 0;
   left: 0;
-  /* min-height: 100%; */
-  /* min-width: 1024px; */
+
 }
 
 .header {
@@ -174,15 +167,35 @@ a:hover {
 }
 
 .strand-div {
-  display: inline-block;
+  flex-flow: column;
+  display: inline-grid;
   justify-content: center;
   padding: 10px;
-  max-width: 31%;
+  width: 31%;
   border: 1px solid #252626;
   margin: 5px;
   font-size: calc(0.5em + 0.5vw)
 }
 
-/* pre {
-  font: 0.5em;
-} */
+
+@media only screen and (max-width: 767px)
+{
+    .strand-div, .projects-div
+    {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 767)
+{
+  .footer-logo
+  {
+    display: block;
+    float: none;
+    width: 100px;
+    height: auto;
+  }
+}
